@@ -1,0 +1,331 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.3427734375,
+        5.89794921875,
+        5.29541015625
+      ],
+      "min": [
+        -1.34228515625,
+        0.00390625,
+        -8.2099609375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 193548,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        0.9999791383743286,
+        0.9999788999557495,
+        0.9994919896125793
+      ],
+      "min": [
+        -0.9999791383743286,
+        -0.999961256980896,
+        -0.9999947547912598
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.829345703125,
+        0.997314453125
+      ],
+      "min": [
+        0.006591796875,
+        0.004150390625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 129032,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        -15.999267578125,
+        -15.999267578125
+      ],
+      "min": [
+        -15.999267578125,
+        -15.999267578125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 258064,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.829345703125,
+        0.997314453125
+      ],
+      "min": [
+        0.006591796875,
+        0.004150390625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 387096,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.829345703125,
+        0.997314453125
+      ],
+      "min": [
+        0.006591796875,
+        0.004150390625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 516128,
+      "componentType": 5126,
+      "count": 16129,
+      "max": [
+        1.829345703125,
+        0.997314453125
+      ],
+      "min": [
+        0.006591796875,
+        0.004150390625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 84456,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "IagoMendez (https://sketchfab.com/IagoMendez)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tyrannosaurus-rex-497a7f22e77a4678b173fb511bea6064",
+      "title": "Tyrannosaurus rex"
+    },
+    "generator": "Sketchfab-16.12.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 337824,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 645160,
+      "byteOffset": 337824,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 387096,
+      "byteOffset": 982984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 258064,
+      "byteOffset": 1370080,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1628144,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Tyrannosaurus93_baseColor.png"
+    },
+    {
+      "uri": "textures/Tyrannosaurus93_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Tyrannosaurus93_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Tyrannosaurus93",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6,
+            "TEXCOORD_4": 7
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "GLTF_SceneRootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "tyrannosaurusRex_0"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
