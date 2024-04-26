@@ -1,8 +1,7 @@
 # Minecraft_React_Three_Fiber
 
 # MAIN FEATURES
-<br>
-<br>
+
 With this React project, we will learn how to create basic 3d shapes and textures. We will learn how to use Zustand, a powerful library to manage states in the application. In addition, we will explore the integration of various 3D models and how to interact with them. All this will be possible thanks to Fiber, which will optimize the management of the user interface and on the other hand, Three Cannon, which will simplify the use of Three.js by facilitating the implementation of physics, planes, collisions and more in an intuitive way. Very useful for creating more attractive and interactive web pages.
 <hr>
 
@@ -11,8 +10,8 @@ With this React project, we will learn how to create basic 3d shapes and texture
 - [Demo](#demo)
 - [Características](#características)
 - [Tecnologías](#tecnologías)
+- [DOCUMENTATION](#contribución)
 - [Uso](#uso)
-- [Contribución](#contribución)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 <hr>
@@ -41,8 +40,10 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 ![Zustand](https://img.shields.io/badge/Zustand-blue?style=plastic&logo=Zustand&labelColor=black)
 ![Pipeline](https://img.shields.io/badge/Pipeline-pink?style=plastic&logo=GLTFPipeline&labelColor=black)
 
-
-
-
+## Documentation
+[Three Cannon](https://www.npmjs.com/package/@react-three/cannon?activeTab=readme)
+[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+[Three Drei](https://github.com/pmndrs/drei#readme)
+[Zustand](https://zustand-demo.pmnd.rs/)
 
 
