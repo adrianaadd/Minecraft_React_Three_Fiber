@@ -32,9 +32,7 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 ## Tecnologías
 Vite: !Vite Logo
 React: !React Logo
-React Three Fiber: !React Three Fiber Logo
-React Three Cannon: !React Three Cannon Logo
-React Three Drei: !React Three Drei Logo
+(https://img.shields.io/badge/three_Cannon,Three_Fiber,three_Drei-gray?style=for-the-badge&logo=three.js)
 Three.js: !Three.js Logo
 Zustand: !Zustand Logo
 GLTF Pipeline: !GLTF Pipeline Logo
