@@ -31,7 +31,7 @@ export const useStore = create((set) => ({
 },
 
     resetWorld: () => {
-        localStorage.setItem("world", [{}])
+        localStorage.setItem("world", [])
         set((state) => ({
       cubes: [
         
