@@ -1,6 +1,6 @@
 # Minecraft_React_Three_Fiber
 
-##MAIN FEATURES
+# MAIN FEATURES
 <br>
 <br>
 With this React project, we will learn how to create basic 3d shapes and textures. We will learn how to use Zustand, a powerful library to manage states in the application. In addition, we will explore the integration of various 3D models and how to interact with them. All this will be possible thanks to Fiber, which will optimize the management of the user interface and on the other hand, Three Cannon, which will simplify the use of Three.js by facilitating the implementation of physics, planes, collisions and more in an intuitive way. Very useful for creating more attractive and interactive web pages.
@@ -16,11 +16,11 @@ With this React project, we will learn how to create basic 3d shapes and texture
 - [Contacto](#contacto)
 <hr>
 
-## Demo
+# Demo
 
 Para iniciar la demo del proyecto utilizaremos npx vite 
 
-# Controllers
+## Controllers
 
 | **Actions**       | **KeyBoard Controllers**|    
 |----------------|----------------------------------------------------------------------------|
@@ -32,7 +32,7 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 | *Space*        | Jump |
 <hr>
 
-## Tecnologías
+# Tecnologías
 
 ![Vite](https://img.shields.io/badge/Vite-purple?style=plastic&logo=Vite&labelColor=black)
 ![React](https://img.shields.io/badge/three_Cannon,Three_Fiber,three_Drei-green?style=plastic&logo=Vue.js&labelColor=black)
