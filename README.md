@@ -36,7 +36,7 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 # TECHNOLOGIES
 
 ![Vite](https://img.shields.io/badge/Vite-purple?style=plastic&logo=Vite&labelColor=black)
-![React](https://img.shields.io/badge/three_Cannon,Three_Fiber,three_Drei-green?style=plastic&logo=Vue.js&labelColor=black)
+![React](https://img.shields.io/badge/Three.js,Three_Cannon,Three_Fiber,three_Drei-green?style=plastic&logo=Vue.js&labelColor=black)
 ![Static Badge](https://img.shields.io/badge/Three_Cannon%2CThree_Fiber%2CThree_Drei-yellow?style=plastic&logo=Three.js&labelColor=black)
 ![Zustand](https://img.shields.io/badge/Zustand-blue?style=plastic&logo=Zustand&labelColor=black)
 ![Pipeline](https://img.shields.io/badge/Pipeline-pink?style=plastic&logo=GLTFPipeline&labelColor=black)
