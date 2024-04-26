@@ -88,14 +88,12 @@ Add the plane in which the objects will stay, give it a rotation, the texture gr
 
 ### Components Used:
 - **useSphere**: Imported from `@react-three/cannon`. It's used to create a physics-enabled sphere representing the player character.
-- **useFrame**: Imported from `@react-three/fiber`. It's used to perform actions on each frame of the animation loop.
-- **useEffect**: Imported from React. It's used for handling side effects like subscribing to position and velocity changes of the player character.
+- **useFrame**: Imported from `@react-three/fiber`. It's used to perform actions on each frame of the animation loop,much better than the set intervals.
+- **useEffect**:It's used for handling side effects like subscribing (Check new position) to position and velocity changes of the player character.
 - **Vector3**: Imported from `three`. It's used to represent 3D vectors for various calculations.
-- **useKeyboard**: Custom hook imported from `"../hooks/useKeyboard.js"`. It's used to detect keyboard inputs for controlling the player character.
 
 ### Functionality:
 - **Movement**: The player character's movement is controlled by keyboard inputs for moving forward, backward, left, and right.
-- **Jumping**: The player character can jump using the spacebar.
 - **Camera**: The camera is attached to the player character's position, allowing the view to follow the character.
 - **Physics**: Physics simulation is applied to the player character using the `useSphere` hook from `@react-three/cannon`. This includes defining the mass, type, position, and velocity of the player character.
 
