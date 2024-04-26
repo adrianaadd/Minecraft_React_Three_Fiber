@@ -1,5 +1,3 @@
-
-
 import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
@@ -10,7 +8,7 @@ export function Dino(props) {
   return (
     <group {...props} dispose={null}>
       <mesh
-       position={[-6, -0.3, 15]} geometry={nodes.Object_4.geometry} material={materials.Tyrannosaurus93} rotation={[Math.PI / 2, 1.2, 4.7]} />
+       type='Static' position={[-6, -0.3, 15]} geometry={nodes.Object_4.geometry} material={materials.Tyrannosaurus93} rotation={[Math.PI / 2, 1.2, 4.7]} />
     </group>
   )
 }

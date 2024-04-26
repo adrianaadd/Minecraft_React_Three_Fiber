@@ -7,6 +7,25 @@
     transform: translate(-50%, -50%);
 }
 
+ .save{
+    position: absolute;
+    top :0;
+    left:0;
+    z-index: 10;
+    color : white;
+    background-color: black;
+       border-radius: 50px;
+}
+.reset{
+    position: absolute;
+    top :0;
+    left:90px;
+    z-index: 10;
+    color : white;
+    background-color: black;
+    border-radius: 50px;
+}
+
 .texture-selector{
     width: 500px;
     height: 150px;
