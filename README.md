@@ -35,6 +35,7 @@ React: !React Logo
 ![Three.js](https://img.shields.io/badge/three_Cannon,Three_Fiber,three_Drei-gray?style=for-the-badge&logo=three.js)
 Zustand: !Zustand Logo
 GLTF Pipeline: !GLTF Pipeline Logo
+![Node JS](https://img.shields.io/badge/NODE.JS-20.11.30-yellow?style=for-the-badge&logo=nodedotjs)
 
 
 
