@@ -61,27 +61,43 @@ Add T-rex animation
 
 ## FILE_OVERVIEW
 
-# App.jsx
+## App.jsx
 
 It is the file where we import all the components, in it we import our canvas and we add the things we want to incorporate into the game, I encourage you to play removing, introducing and moving elements in place. 
 
 ## Folder_Img
+
 In this file we will save the images of textures and of the files that are in charge of exporting and loading the textures with three.js.
 
 ## Folder_Hooks
+
 In this folder we will have the useStore that will be in charge of providing the data and functions of the cubes to all the components.
 Also we have the file useKeyboard, it is the one that listener the keysUps and key downs and depending on it activate an action. 
 
 ## Folder_Components
 
-# FPV.jsx
+## FPV.jsx
 
 Adds a camera and pointercontrols that will allow us to move the camera with the mouse
 
-# Ground.jsx
+## Ground.jsx
 
 Add the plane in which the objects will stay, give it a rotation, the texture ground and add the function addCube when we click on it.
 
+## Player.jsx
+
+### Components Used:
+- **useSphere**: Imported from `@react-three/cannon`. It's used to create a physics-enabled sphere representing the player character.
+- **useFrame**: Imported from `@react-three/fiber`. It's used to perform actions on each frame of the animation loop.
+- **useEffect**: Imported from React. It's used for handling side effects like subscribing to position and velocity changes of the player character.
+- **Vector3**: Imported from `three`. It's used to represent 3D vectors for various calculations.
+- **useKeyboard**: Custom hook imported from `"../hooks/useKeyboard.js"`. It's used to detect keyboard inputs for controlling the player character.
+
+### Functionality:
+- **Movement**: The player character's movement is controlled by keyboard inputs for moving forward, backward, left, and right.
+- **Jumping**: The player character can jump using the spacebar.
+- **Camera**: The camera is attached to the player character's position, allowing the view to follow the character.
+- **Physics**: Physics simulation is applied to the player character using the `useSphere` hook from `@react-three/cannon`. This includes defining the mass, type, position, and velocity of the player character.
 
 
 
