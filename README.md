@@ -8,12 +8,9 @@ With this React project, we will learn how to create basic 3d shapes and texture
 ## Tabla de Contenidos
 
 - [Demo](#demo)
-- [Características](#características)
-- [Tecnologías](#tecnologías)
-- [DOCUMENTATION](#contribución)
-- [Uso](#uso)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
+- [Tecnologías](#Tecnologías)
+- [DOCUMENTATION](#Documentation)
+- [FUTURE IMPLEMENTATIONS](#FUTURE_IMPLEMENTATIONS)
 <hr>
 
 # Demo
@@ -49,4 +46,5 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 
 [Zustand](https://zustand-demo.pmnd.rs/)
 
-
+## FUTURE_IMPLEMENTATIONS
+Add T-rex animation
