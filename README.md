@@ -8,7 +8,7 @@ With this React project, we will learn how to create basic 3d shapes and texture
 ## Tabla de Contenidos
 
 - [Demo](#demo)
-- [Tecnologías](#Tecnologías)
+- [Technologies](#Technologies)
 - [DOCUMENTATION](#Documentation)
 - [FUTURE IMPLEMENTATIONS](#FUTURE_IMPLEMENTATIONS)
 <hr>
@@ -29,7 +29,7 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 | *Space*        | Jump |
 <hr>
 
-# Tecnologías
+# Technologies
 
 ![Vite](https://img.shields.io/badge/Vite-purple?style=plastic&logo=Vite&labelColor=black)
 ![React](https://img.shields.io/badge/three_Cannon,Three_Fiber,three_Drei-green?style=plastic&logo=Vue.js&labelColor=black)
