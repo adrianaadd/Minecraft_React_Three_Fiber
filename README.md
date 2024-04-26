@@ -42,8 +42,11 @@ Para iniciar la demo del proyecto utilizaremos npx vite
 
 ## Documentation
 [Three Cannon](https://www.npmjs.com/package/@react-three/cannon?activeTab=readme)
+
 [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+
 [Three Drei](https://github.com/pmndrs/drei#readme)
+
 [Zustand](https://zustand-demo.pmnd.rs/)
 
 
