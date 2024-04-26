@@ -97,6 +97,28 @@ Add the plane in which the objects will stay, give it a rotation, the texture gr
 - **Camera**: The camera is attached to the player character's position, allowing the view to follow the character.
 - **Physics**: Physics simulation is applied to the player character using the `useSphere` hook from `@react-three/cannon`. This includes defining the mass, type, position, and velocity of the player character.
 
+## Cubes.jsx
+Map all cubes from the store
+
+## TextureSelected.jsx
+
+Change the default skin of the cubes you set by sending it to the store and also make the skin menu visible or not. 
+
+## Cube.jsx
+
+## Functionality
+
+- **Hovering**: The cube changes color when hovered over.
+- **Adding and Removing Cubes**: Clicking on a cube with different keyboard combinations (e.g., altKey) allows adding or removing cubes from the scene.
+- **Physics Simulation**: Physics simulation is applied to the cube using the `useBox` hook from `@react-three/cannon`. The type of physics simulation (static or dynamic) can be controlled using the `type` parameter.
+
+## Components Used
+
+- **useBox**: Imported from `@react-three/cannon`. Like sphere it's used to create a physics-enabled box representing the cube.
+- **useState**: Imported from React. It's used to manage the state of whether the cube is hovered or not.
+- **useStore**: Used to access and modify global state related to cubes.
+
+
 
 
 
